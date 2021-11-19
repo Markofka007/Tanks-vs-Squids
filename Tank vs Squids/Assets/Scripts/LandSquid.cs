@@ -32,12 +32,16 @@ public class LandSquid : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Vector3 targetVelocity = new Vector2(directionFacing.x * 2000 * Time.fixedDeltaTime, SquidRB.velocity.y);
+        Vector3 targetVelocity = new Vector2(directionFacing.x * speed * Time.fixedDeltaTime, SquidRB.velocity.y);
         SquidRB.velocity = Vector3.SmoothDamp(SquidRB.velocity, targetVelocity, ref vector3Zero, smoothing);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        //this is a functuipi;ujberthn;l
+        if (collision.gameObject.CompareTag("Bullet"))
+        {
+            Destroy(gameObject);
+            gameManager.enemiesKilled++;
+        }
     }
 }
