@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class Target : MonoBehaviour //Destroys a specified object when the target is hit
 {
-    public GameObject objectToBeDestroyed;
+    public GameObject door;
     public float raisedHeight;
     bool isRaised = false;
+    public float smoothTime = 0.3f;
+    private Vector3 velocity = Vector3.zero;
+    public Transform target;
+
 
     // Start is called before the first frame update
     void Start()
@@ -19,8 +23,19 @@ public class Target : MonoBehaviour //Destroys a specified object when the targe
     {
         if(isRaised)
         {
-            objectToBeDestroyed.gameObject.transform.position += new Vector3(0, 5);
-            isRaised = false;//Mathf.Lerp(gameObject.transform.position.y, raisedHeight, 0.5f)                    
+            //objectToBeDestroyed.gameObject.transform.position += new Vector3(0, 5);
+            //isRaised = false;//Mathf.Lerp(gameObject.transform.position.y, raisedHeight, 0.5f)
+            //
+            if(door.gameObject.transform.position.y < raisedHeight)
+            {
+                Vector3 targetPosition = target.TransformPoint(new Vector3(0, 5, -10));
+
+                // Smoothly move the camera towards that target position
+                door.gameObject.transform.position = Vector3.SmoothDamp(door.gameObject.transform.position, targetPosition, ref velocity, smoothTime);
+            }
+            
+
+
         }
     }
 
