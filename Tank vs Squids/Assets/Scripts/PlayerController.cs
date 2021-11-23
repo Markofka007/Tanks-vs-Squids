@@ -60,7 +60,7 @@ public class PlayerController : MonoBehaviour
             //Debug.Log(fuel);
         }
         
-        Vector3 targetVelocity = new Vector2(horizontalInput * speed * Time.fixedDeltaTime, playerRB.velocity.y);
+        Vector3 targetVelocity = new Vector2((horizontalInput * speed * Time.fixedDeltaTime), playerRB.velocity.y);
         playerRB.velocity = Vector3.SmoothDamp(playerRB.velocity, targetVelocity, ref vector3Zero, smoothing);
     }
 
