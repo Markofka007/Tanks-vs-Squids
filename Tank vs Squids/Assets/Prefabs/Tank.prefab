@@ -412,7 +412,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 3
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -431,8 +431,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 0}
-  speed: 200
-  vertSpeed: 0.35
+  speed: 350
+  vertSpeed: 1
   smoothing: 0.025
   mainCamera: {fileID: 0}
   bulletPrefab: {fileID: 7056837364945992129, guid: c00bb8bf434eecd44921f2f3e0c134da, type: 3}
