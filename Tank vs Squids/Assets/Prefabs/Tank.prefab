@@ -431,8 +431,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 0}
-  speed: 350
-  vertSpeed: 285
+  speed: 450
+  vertSpeed: 300
   smoothing: 0.025
   mainCamera: {fileID: 0}
   bulletPrefab: {fileID: 7056837364945992129, guid: c00bb8bf434eecd44921f2f3e0c134da, type: 3}
