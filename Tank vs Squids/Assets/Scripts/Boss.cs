@@ -20,7 +20,7 @@ public class Boss : MonoBehaviour
             Destroy(gameObject);
         }
 
-        //Debug.Log(bossHealth);
+        Debug.Log(bossHealth);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

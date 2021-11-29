@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 1475421115190777867}
   m_Layer: 0
   m_Name: LandSquid
-  m_TagString: Untagged
+  m_TagString: Squid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -350,6 +350,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbb0217657248c74c937dbbdb962cb19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
 --- !u!1 &8333110534494220955
 GameObject:
   m_ObjectHideFlags: 0

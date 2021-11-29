@@ -12,12 +12,14 @@ public class SpawnManager : MonoBehaviour
     private float timeSinceLastSpawn;
     private float randomSpawnDelay;
 
+    public float minSpawnTime = 3.0f; //The minimum amount of time between squid spawns
+    public float maxSpawnTime = 5.0f; //The maximum amount of time between squid spawns
+
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.Find("Tank");
-
-        randomSpawnDelay = Random.Range(3.0f, 5.0f);
+        randomSpawnDelay = Random.Range(minSpawnTime, maxSpawnTime);
     }
 
     // Update is called once per frame
@@ -29,13 +31,13 @@ public class SpawnManager : MonoBehaviour
         {
             StartCoroutine("SpawnAirSquid");
             timeSinceLastSpawn = 0;
-            randomSpawnDelay = Random.Range(3.0f, 5.0f);
+            randomSpawnDelay = Random.Range(minSpawnTime, maxSpawnTime);
         }
     }
 
     IEnumerator SpawnAirSquidDelay()
     {
-        float spawnDelay = Random.Range(3.0f, 5.0f);
+        float spawnDelay = Random.Range(minSpawnTime, maxSpawnTime);
         yield return new WaitForSeconds(spawnDelay);
         SpawnAirSquid();
     }
