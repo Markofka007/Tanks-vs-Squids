@@ -27,7 +27,7 @@ public class LandSquid : MonoBehaviour
     void Update()
     {
         directionFacing = (player.transform.position - transform.position).normalized;
-        Debug.Log(directionFacing.x);
+        //Debug.Log(directionFacing.x);
     }
 
     private void FixedUpdate()

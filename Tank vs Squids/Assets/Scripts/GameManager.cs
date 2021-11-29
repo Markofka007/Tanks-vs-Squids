@@ -8,7 +8,11 @@ public class GameManager : MonoBehaviour
 {
     public TextMeshProUGUI fuelMeter;
     public TextMeshProUGUI enemiesKilledText;
-    public TextMeshProUGUI paused;
+    
+    public GameObject paused;
+    public GameObject resumeButton;
+    public GameObject restartButton;
+    public GameObject quitButton;
 
     public bool isGamePaused = false;
 
@@ -23,22 +27,55 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if (isGamePaused && Input.GetKeyDown(KeyCode.Escape))
         {
-            if(!isGamePaused)
+            //Debug.Log("Bing");
+            isGamePaused = false;
+            HidePauseUI();
+        }
+        else
+        {
+            if (!isGamePaused && Input.GetKeyDown(KeyCode.Escape))
             {
-                isGamePaused = false;
+                //Debug.Log("Bada");
+                isGamePaused = true;
                 DisplayPauseUI();
             }
-        }
-
+        } 
     }
 
     void DisplayPauseUI()
     {
-        paused.gameObject.SetActive(true);
-        GameObject.Find("Resume Button").SetActive(true);
-        Debug.Log("Test");
-        Debug.Log(GameObject.Find("Resume Button").GetType());
+        Time.timeScale = 0;
+        paused.SetActive(true);
+        //restartButton.SetActive(true);
+        //resumeButton.SetActive(true);
+        //quitButton.SetActive(true);
     }
+
+    void HidePauseUI()
+    {
+        Time.timeScale = 1;
+        paused.SetActive(false);
+        //restartButton.SetActive(false);
+        //resumeButton.SetActive(false);
+        //quitButton.SetActive(false);
+    }
+
+    public void ResumeButton()
+    {
+        HidePauseUI();
+        Debug.Log("Resume");
+    }
+
+    public void RestartButton()
+    {
+        Debug.Log("Restart");
+    }
+
+    public void QuitButton()
+    {
+        Debug.Log("Quit");
+    }
+
 }
