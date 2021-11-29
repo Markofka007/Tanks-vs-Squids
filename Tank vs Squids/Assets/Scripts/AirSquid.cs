@@ -44,5 +44,23 @@ public class AirSquid : MonoBehaviour
             GetComponent<Rigidbody2D>().velocity = new Vector2(Mathf.Cos(squidAngle * Mathf.Deg2Rad) * 10, Mathf.Sin(squidAngle * Mathf.Deg2Rad) * 10);
             mirrored = true;
         }
+
+        if (transform.position.y > player.transform.position.y + 25.0f && mirrored)
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Bullet"))
+        {
+            Destroy(gameObject);
+            //gameManager.enemiesKilled++;
+        }
+        else if (collision.gameObject.CompareTag("Tank"))
+        {
+            Destroy(gameObject);
+        }
     }
 }
