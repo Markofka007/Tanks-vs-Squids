@@ -6,8 +6,8 @@ public class LandSquid : MonoBehaviour
 {
     public GameManager gameManager;
 
-    [SerializeField] private float speed;
-    [SerializeField] private float smoothing;
+    private float speed = 1000f;
+    private float smoothing = 1.5f;
 
     private Vector3 directionFacing;
 
@@ -41,7 +41,7 @@ public class LandSquid : MonoBehaviour
         if (collision.gameObject.CompareTag("Bullet"))
         {
             Destroy(gameObject);
-            gameManager.enemiesKilled++;
+            //gameManager.enemiesKilled++;
         }
     }
 }
