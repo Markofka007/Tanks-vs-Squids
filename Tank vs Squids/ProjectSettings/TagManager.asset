@@ -9,6 +9,7 @@ TagManager:
   - Ground Squid
   - Squid
   - KillBox
+  - Pickup_Missile
   layers:
   - Default
   - TransparentFX
