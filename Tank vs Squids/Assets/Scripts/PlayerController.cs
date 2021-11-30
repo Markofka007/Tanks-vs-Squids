@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour
 {
     public GameManager gameManager;
 
+    public int missileCount = 5;
+
     private Rigidbody2D playerRB;
     private GameObject tankHead;
     private GameObject cannonTip;
@@ -61,6 +63,12 @@ public class PlayerController : MonoBehaviour
         {
             GameObject bullet = GameObject.Instantiate(bulletPrefab, cannonTip.transform.position, tankHead.transform.rotation) as GameObject;
             bullet.GetComponent<Rigidbody2D>().velocity = new Vector2(CosDeg(headRotationFloat) * 0.3f, SinDeg(headRotationFloat) * 0.3f);
+            canShoot = false;
+        }
+
+        if(Input.GetKeyDown(KeyCode.Mouse1) && canShoot)
+        {
+            missileCount--;
             canShoot = false;
         }
 

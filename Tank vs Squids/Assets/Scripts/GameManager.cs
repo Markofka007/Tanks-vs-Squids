@@ -9,12 +9,16 @@ public class GameManager : MonoBehaviour
 {
     public TextMeshProUGUI fuelMeter;
     public TextMeshProUGUI enemiesKilledText;
-    
+    public TextMeshProUGUI missileCount;
+
+    public PlayerController player;
+
     public GameObject paused;
     public GameObject resumeButton;
     public GameObject restartButton;
     public GameObject quitButton;
     public GameObject pressR;
+    
 
     public bool isGamePaused = false;
 
@@ -52,6 +56,7 @@ public class GameManager : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
 
+        missileCount.text = "Missiles: " + player.missileCount;
         enemiesKilledText.text = "Kills: " + enemiesKilled;
     }
 
