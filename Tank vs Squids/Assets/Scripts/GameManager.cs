@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class GameManager : MonoBehaviour
     public GameObject resumeButton;
     public GameObject restartButton;
     public GameObject quitButton;
+    public GameObject pressR;
 
     public bool isGamePaused = false;
 
@@ -41,6 +43,13 @@ public class GameManager : MonoBehaviour
                 isGamePaused = true;
                 DisplayPauseUI();
             }
+        }
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            Debug.Log("Guh");
+            Time.timeScale = 1;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
 
         enemiesKilledText.text = "Kills: " + enemiesKilled;

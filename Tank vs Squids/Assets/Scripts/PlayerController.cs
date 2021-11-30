@@ -40,7 +40,11 @@ public class PlayerController : MonoBehaviour
     
     void Update()
     {
-        if (health <= 0) { Destroy(gameObject); }
+        if (health <= 0) 
+        {
+            gameManager.pressR.SetActive(true);
+            Destroy(gameObject); 
+        }
         
         horizontalInput = Input.GetAxis("Horizontal");
 
@@ -58,11 +62,6 @@ public class PlayerController : MonoBehaviour
             GameObject bullet = GameObject.Instantiate(bulletPrefab, cannonTip.transform.position, tankHead.transform.rotation) as GameObject;
             bullet.GetComponent<Rigidbody2D>().velocity = new Vector2(CosDeg(headRotationFloat) * 0.3f, SinDeg(headRotationFloat) * 0.3f);
             canShoot = false;
-        }
-
-        if(Input.GetKeyDown(KeyCode.R))
-        {
-            SceneManager.LoadScene(targetScene);
         }
 
         if (!canShoot)
@@ -104,6 +103,7 @@ public class PlayerController : MonoBehaviour
 
         if (collision.gameObject.CompareTag("KillBox"))
         {
+            gameManager.pressR.SetActive(true);
             Destroy(gameObject);
         }
     }
