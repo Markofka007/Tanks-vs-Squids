@@ -330,7 +330,7 @@ GameObject:
   - component: {fileID: 7627114446864556972}
   m_Layer: 0
   m_Name: Tank
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -436,6 +436,7 @@ MonoBehaviour:
   smoothing: 0.025
   mainCamera: {fileID: 0}
   bulletPrefab: {fileID: 7056837364945992129, guid: c00bb8bf434eecd44921f2f3e0c134da, type: 3}
+  health: 1
 --- !u!1 &7627114447145910633
 GameObject:
   m_ObjectHideFlags: 0

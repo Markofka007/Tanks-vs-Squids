@@ -20,6 +20,8 @@ public class PlayerController : MonoBehaviour
     private float targetYVelocity;
     private float headRotationFloat;
     private int fuel = 50;
+
+    public int health = 1;
     
     private Vector3 vector3Zero = Vector3.zero;
     private Vector3 targetVelocity;
@@ -33,6 +35,8 @@ public class PlayerController : MonoBehaviour
     
     void Update()
     {
+        if (health <= 0) { Destroy(gameObject); }
+        
         horizontalInput = Input.GetAxis("Horizontal");
 
         tankHead.transform.position = transform.position + new Vector3(0, 0.5f, 0);
@@ -69,7 +73,16 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             fuel = 50;
-            //Debug.Log(fuel);
+        }
+
+        if(collision.gameObject.CompareTag("Squid"))
+        {
+            health--;
+        }
+
+        if (collision.gameObject.CompareTag("KillBox"))
+        {
+            Destroy(gameObject);
         }
     }
 
