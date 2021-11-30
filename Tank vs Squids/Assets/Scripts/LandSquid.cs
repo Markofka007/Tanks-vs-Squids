@@ -28,7 +28,7 @@ public class LandSquid : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(playerCheck)
+        if(playerCheck && player != null)// 
         {
             directionFacing = (player.transform.position - transform.position).normalized;
             //Debug.Log(directionFacing.x);

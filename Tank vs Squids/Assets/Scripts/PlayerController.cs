@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour
 {
     public GameManager gameManager;
 
+    public int missileCount = 5;
+
     private Rigidbody2D playerRB;
     private GameObject tankHead;
     private GameObject cannonTip;
@@ -40,7 +42,11 @@ public class PlayerController : MonoBehaviour
     
     void Update()
     {
-        if (health <= 0) { Destroy(gameObject); }
+        if (health <= 0) 
+        {
+            gameManager.pressR.SetActive(true);
+            Destroy(gameObject); 
+        }
         
         horizontalInput = Input.GetAxis("Horizontal");
 
@@ -60,9 +66,10 @@ public class PlayerController : MonoBehaviour
             canShoot = false;
         }
 
-        if(Input.GetKeyDown(KeyCode.R))
+        if(Input.GetKeyDown(KeyCode.Mouse1) && canShoot)
         {
-            SceneManager.LoadScene(targetScene);
+            missileCount--;
+            canShoot = false;
         }
 
         if (!canShoot)
@@ -104,6 +111,7 @@ public class PlayerController : MonoBehaviour
 
         if (collision.gameObject.CompareTag("KillBox"))
         {
+            gameManager.pressR.SetActive(true);
             Destroy(gameObject);
         }
     }

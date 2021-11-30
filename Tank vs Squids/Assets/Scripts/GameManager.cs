@@ -3,16 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     public TextMeshProUGUI fuelMeter;
     public TextMeshProUGUI enemiesKilledText;
-    
+    public TextMeshProUGUI missileCount;
+
+    public PlayerController player;
+
     public GameObject paused;
     public GameObject resumeButton;
     public GameObject restartButton;
     public GameObject quitButton;
+    public GameObject pressR;
+    
 
     public bool isGamePaused = false;
 
@@ -43,6 +49,14 @@ public class GameManager : MonoBehaviour
             }
         }
 
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            Debug.Log("Guh");
+            Time.timeScale = 1;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+
+        missileCount.text = "Missiles: " + player.missileCount;
         enemiesKilledText.text = "Kills: " + enemiesKilled;
     }
 
