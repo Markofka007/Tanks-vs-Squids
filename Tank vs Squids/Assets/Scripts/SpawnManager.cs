@@ -8,6 +8,7 @@ public class SpawnManager : MonoBehaviour
     private GameObject player;
 
     private float OSdistance = 24.166f;
+    private float OSdistanceY = 11.0f;
 
     private float timeSinceLastSpawn;
     private float randomSpawnDelay;
@@ -44,20 +45,9 @@ public class SpawnManager : MonoBehaviour
 
     void SpawnAirSquid()
     {
-        //Debug.Log("Spawning Squid");
-        float spawnAngle = Random.Range(10.0f, 170.0f);
-        Debug.Log(CosDeg(spawnAngle));
-        Vector2 spawnPos = new Vector2((player.transform.position.x + CosDeg(spawnAngle)) / 2, (player.transform.position.y + SinDeg(spawnAngle)) / 2);
+        //float spawnAngle = Random.Range(10.0f, 170.0f);
+        //Debug.Log(CosDeg(spawnAngle));
+        Vector2 spawnPos = new Vector2(player.transform.position.x + Random.Range(-25, 25), player.transform.position.y + OSdistanceY);
         Instantiate(airSquidPrefab, spawnPos, Quaternion.identity);
-    }
-
-    float CosDeg(float degInput)
-    {
-        return Mathf.Cos(degInput * Mathf.Deg2Rad) * Mathf.Rad2Deg;
-    }
-
-    float SinDeg(float degInput)
-    {
-        return Mathf.Sin(degInput * Mathf.Deg2Rad) * Mathf.Rad2Deg;
     }
 }

@@ -1735,7 +1735,7 @@ GameObject:
   - component: {fileID: 1617150702}
   m_Layer: 0
   m_Name: Tank
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3165,11 +3165,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8756752127588201140, guid: 32d0f486b7870ee4d97651f8e7ce2f94, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -27.16
+      value: -26.52
       objectReference: {fileID: 0}
     - target: {fileID: 8756752127588201140, guid: 32d0f486b7870ee4d97651f8e7ce2f94, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.79
+      value: 11.18
       objectReference: {fileID: 0}
     - target: {fileID: 8756752127588201140, guid: 32d0f486b7870ee4d97651f8e7ce2f94, type: 3}
       propertyPath: m_LocalPosition.z
