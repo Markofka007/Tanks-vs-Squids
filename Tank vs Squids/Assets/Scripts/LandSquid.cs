@@ -49,7 +49,7 @@ public class LandSquid : MonoBehaviour
         if (collision.gameObject.CompareTag("Bullet"))
         {
             Destroy(gameObject);
-            //gameManager.enemiesKilled++;
+            gameManager.enemiesKilled++;
         }
     }
 

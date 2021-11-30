@@ -23,7 +23,7 @@ public class LevelSwitch : MonoBehaviour
     {
         if(collision.CompareTag("Player"))
         {
-            Debug.Log("Check");
+            //Debug.Log("Check");
             SceneManager.LoadScene(targetScene);
         }
     }

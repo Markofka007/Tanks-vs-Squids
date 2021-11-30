@@ -265,6 +265,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1627066394}
     m_Modifications:
+    - target: {fileID: 1475421115190777867, guid: 08572465f5416404382b8694ef7f961f, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 726978325}
     - target: {fileID: 5342282918834095876, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_Name
       value: LandSquid (12)
@@ -446,6 +450,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1627066394}
     m_Modifications:
+    - target: {fileID: 1475421115190777867, guid: 08572465f5416404382b8694ef7f961f, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 726978325}
     - target: {fileID: 5342282918834095876, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_Name
       value: LandSquid (25)
@@ -570,6 +578,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1627066394}
     m_Modifications:
+    - target: {fileID: 1475421115190777867, guid: 08572465f5416404382b8694ef7f961f, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 726978325}
     - target: {fileID: 5342282918834095876, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_Name
       value: LandSquid (17)
@@ -1026,11 +1038,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 703126005693370025, guid: 89a9cc989c5d2cb4caf053e099ddc2e1, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 703126005693370025, guid: 89a9cc989c5d2cb4caf053e099ddc2e1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 365.14825
+      value: 383.2
       objectReference: {fileID: 0}
     - target: {fileID: 703126005693370025, guid: 89a9cc989c5d2cb4caf053e099ddc2e1, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1368,7 +1380,7 @@ Transform:
   - {fileID: 1732569454}
   - {fileID: 2093735064}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &341151192
 PrefabInstance:
@@ -1546,7 +1558,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 703126005693370025, guid: 89a9cc989c5d2cb4caf053e099ddc2e1, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 703126005693370025, guid: 89a9cc989c5d2cb4caf053e099ddc2e1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1996,7 +2008,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 90.04401, y: 180, z: 2.0429993}
 --- !u!1001 &509907173
 PrefabInstance:
@@ -2067,6 +2079,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1627066394}
     m_Modifications:
+    - target: {fileID: 1475421115190777867, guid: 08572465f5416404382b8694ef7f961f, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 726978325}
     - target: {fileID: 5342282918834095876, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_Name
       value: LandSquid (28)
@@ -2129,6 +2145,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1627066394}
     m_Modifications:
+    - target: {fileID: 1475421115190777867, guid: 08572465f5416404382b8694ef7f961f, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 726978325}
     - target: {fileID: 5342282918834095876, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_Name
       value: LandSquid (13)
@@ -2477,6 +2497,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1627066394}
     m_Modifications:
+    - target: {fileID: 1475421115190777867, guid: 08572465f5416404382b8694ef7f961f, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 726978325}
     - target: {fileID: 5342282918834095876, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_Name
       value: LandSquid (2)
@@ -2674,7 +2698,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 703126005693370025, guid: 89a9cc989c5d2cb4caf053e099ddc2e1, type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 703126005693370025, guid: 89a9cc989c5d2cb4caf053e099ddc2e1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2730,6 +2754,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1627066394}
     m_Modifications:
+    - target: {fileID: 1475421115190777867, guid: 08572465f5416404382b8694ef7f961f, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 726978325}
     - target: {fileID: 5342282918834095876, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_Name
       value: LandSquid (29)
@@ -2835,7 +2863,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &740333115
 PrefabInstance:
@@ -3018,6 +3046,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1627066394}
     m_Modifications:
+    - target: {fileID: 1475421115190777867, guid: 08572465f5416404382b8694ef7f961f, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 726978325}
     - target: {fileID: 5342282918834095876, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_Name
       value: LandSquid (2)
@@ -3168,7 +3200,7 @@ RectTransform:
   - {fileID: 575155807}
   - {fileID: 1225078310}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3298,6 +3330,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1627066394}
     m_Modifications:
+    - target: {fileID: 1475421115190777867, guid: 08572465f5416404382b8694ef7f961f, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 726978325}
     - target: {fileID: 5342282918834095876, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_Name
       value: LandSquid (3)
@@ -3360,6 +3396,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1627066394}
     m_Modifications:
+    - target: {fileID: 1475421115190777867, guid: 08572465f5416404382b8694ef7f961f, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 726978325}
     - target: {fileID: 5342282918834095876, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_Name
       value: LandSquid (3)
@@ -3417,6 +3457,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1627066394}
     m_Modifications:
+    - target: {fileID: 1475421115190777867, guid: 08572465f5416404382b8694ef7f961f, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 726978325}
     - target: {fileID: 5342282918834095876, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_Name
       value: LandSquid (15)
@@ -3485,7 +3529,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 703126005693370025, guid: 89a9cc989c5d2cb4caf053e099ddc2e1, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 703126005693370025, guid: 89a9cc989c5d2cb4caf053e099ddc2e1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3541,6 +3585,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1627066394}
     m_Modifications:
+    - target: {fileID: 1475421115190777867, guid: 08572465f5416404382b8694ef7f961f, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 726978325}
     - target: {fileID: 5342282918834095876, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_Name
       value: LandSquid (4)
@@ -3670,6 +3718,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1627066394}
     m_Modifications:
+    - target: {fileID: 1475421115190777867, guid: 08572465f5416404382b8694ef7f961f, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 726978325}
     - target: {fileID: 5342282918834095876, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_Name
       value: LandSquid (9)
@@ -3732,6 +3784,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1627066394}
     m_Modifications:
+    - target: {fileID: 1475421115190777867, guid: 08572465f5416404382b8694ef7f961f, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 726978325}
     - target: {fileID: 5342282918834095876, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_Name
       value: LandSquid (18)
@@ -3742,11 +3798,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5456914078010432073, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 484.06573
+      value: 501.4
       objectReference: {fileID: 0}
     - target: {fileID: 5456914078010432073, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.8196583
+      value: -5.6
       objectReference: {fileID: 0}
     - target: {fileID: 5456914078010432073, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3794,6 +3850,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1627066394}
     m_Modifications:
+    - target: {fileID: 1475421115190777867, guid: 08572465f5416404382b8694ef7f961f, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 726978325}
     - target: {fileID: 5342282918834095876, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_Name
       value: LandSquid (22)
@@ -3804,11 +3864,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5456914078010432073, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 491.4685
+      value: 508.8028
       objectReference: {fileID: 0}
     - target: {fileID: 5456914078010432073, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.0079803
+      value: -5.788322
       objectReference: {fileID: 0}
     - target: {fileID: 5456914078010432073, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3856,6 +3916,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1627066394}
     m_Modifications:
+    - target: {fileID: 1475421115190777867, guid: 08572465f5416404382b8694ef7f961f, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 726978325}
     - target: {fileID: 5342282918834095876, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_Name
       value: LandSquid
@@ -3913,6 +3977,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1627066394}
     m_Modifications:
+    - target: {fileID: 1475421115190777867, guid: 08572465f5416404382b8694ef7f961f, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 726978325}
     - target: {fileID: 5342282918834095876, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_Name
       value: LandSquid (21)
@@ -3923,11 +3991,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5456914078010432073, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 486.68628
+      value: 504.02057
       objectReference: {fileID: 0}
     - target: {fileID: 5456914078010432073, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.0079803
+      value: -5.788322
       objectReference: {fileID: 0}
     - target: {fileID: 5456914078010432073, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4338,7 +4406,7 @@ Transform:
   - {fileID: 2099966959}
   - {fileID: 1924346440}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1103176824 stripped
 Transform:
@@ -4352,6 +4420,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1627066394}
     m_Modifications:
+    - target: {fileID: 1475421115190777867, guid: 08572465f5416404382b8694ef7f961f, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 726978325}
     - target: {fileID: 5342282918834095876, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_Name
       value: LandSquid (1)
@@ -4453,7 +4525,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.2182243, y: 1}
+    m_SensorSize: {x: 2.1217713, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -4476,7 +4548,7 @@ Transform:
   m_Children:
   - {fileID: 1648739063}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1195422522
 PrefabInstance:
@@ -4613,6 +4685,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1627066394}
     m_Modifications:
+    - target: {fileID: 1475421115190777867, guid: 08572465f5416404382b8694ef7f961f, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 726978325}
     - target: {fileID: 5342282918834095876, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_Name
       value: LandSquid (14)
@@ -4815,7 +4891,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 703126005693370025, guid: 89a9cc989c5d2cb4caf053e099ddc2e1, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 703126005693370025, guid: 89a9cc989c5d2cb4caf053e099ddc2e1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4929,68 +5005,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c3229446e3a5e241ad02faa1a9a7eaf, type: 3}
---- !u!1001 &1314202907
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1648626805}
-    m_Modifications:
-    - target: {fileID: 703126005693370004, guid: 89a9cc989c5d2cb4caf053e099ddc2e1, type: 3}
-      propertyPath: m_Name
-      value: Ground (9)
-      objectReference: {fileID: 0}
-    - target: {fileID: 703126005693370025, guid: 89a9cc989c5d2cb4caf053e099ddc2e1, type: 3}
-      propertyPath: m_RootOrder
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 703126005693370025, guid: 89a9cc989c5d2cb4caf053e099ddc2e1, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 384.07928
-      objectReference: {fileID: 0}
-    - target: {fileID: 703126005693370025, guid: 89a9cc989c5d2cb4caf053e099ddc2e1, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.1530318
-      objectReference: {fileID: 0}
-    - target: {fileID: 703126005693370025, guid: 89a9cc989c5d2cb4caf053e099ddc2e1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.9807186
-      objectReference: {fileID: 0}
-    - target: {fileID: 703126005693370025, guid: 89a9cc989c5d2cb4caf053e099ddc2e1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 703126005693370025, guid: 89a9cc989c5d2cb4caf053e099ddc2e1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 703126005693370025, guid: 89a9cc989c5d2cb4caf053e099ddc2e1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 703126005693370025, guid: 89a9cc989c5d2cb4caf053e099ddc2e1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 703126005693370025, guid: 89a9cc989c5d2cb4caf053e099ddc2e1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 703126005693370025, guid: 89a9cc989c5d2cb4caf053e099ddc2e1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 703126005693370025, guid: 89a9cc989c5d2cb4caf053e099ddc2e1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 89a9cc989c5d2cb4caf053e099ddc2e1, type: 3}
---- !u!4 &1314202908 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 703126005693370025, guid: 89a9cc989c5d2cb4caf053e099ddc2e1, type: 3}
-  m_PrefabInstance: {fileID: 1314202907}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1324406717
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4998,6 +5012,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1627066394}
     m_Modifications:
+    - target: {fileID: 1475421115190777867, guid: 08572465f5416404382b8694ef7f961f, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 726978325}
     - target: {fileID: 5342282918834095876, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_Name
       value: LandSquid (19)
@@ -5008,11 +5026,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5456914078010432073, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 481.1045
+      value: 498.43878
       objectReference: {fileID: 0}
     - target: {fileID: 5456914078010432073, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.047443
+      value: -5.8277845
       objectReference: {fileID: 0}
     - target: {fileID: 5456914078010432073, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5239,6 +5257,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1627066394}
     m_Modifications:
+    - target: {fileID: 1475421115190777867, guid: 08572465f5416404382b8694ef7f961f, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 726978325}
     - target: {fileID: 5342282918834095876, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_Name
       value: LandSquid (1)
@@ -5301,6 +5323,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1627066394}
     m_Modifications:
+    - target: {fileID: 1475421115190777867, guid: 08572465f5416404382b8694ef7f961f, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 726978325}
     - target: {fileID: 5342282918834095876, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_Name
       value: LandSquid (7)
@@ -5374,7 +5400,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 703126005693370025, guid: 89a9cc989c5d2cb4caf053e099ddc2e1, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 703126005693370025, guid: 89a9cc989c5d2cb4caf053e099ddc2e1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5423,6 +5449,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 703126005693370025, guid: 89a9cc989c5d2cb4caf053e099ddc2e1, type: 3}
   m_PrefabInstance: {fileID: 1421799947}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1439356134
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1439356135}
+  m_Layer: 0
+  m_Name: SpawnManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1439356135
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1439356134}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 120.50902, y: -4.220773, z: -17.75488}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1463190122 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3650843872221693433, guid: 3c3229446e3a5e241ad02faa1a9a7eaf, type: 3}
@@ -5492,6 +5549,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1627066394}
     m_Modifications:
+    - target: {fileID: 1475421115190777867, guid: 08572465f5416404382b8694ef7f961f, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 726978325}
     - target: {fileID: 5342282918834095876, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_Name
       value: LandSquid (11)
@@ -5559,6 +5620,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1627066394}
     m_Modifications:
+    - target: {fileID: 1475421115190777867, guid: 08572465f5416404382b8694ef7f961f, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 726978325}
     - target: {fileID: 5342282918834095876, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_Name
       value: LandSquid (24)
@@ -5569,11 +5634,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5456914078010432073, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 495.5932
+      value: 512.9275
       objectReference: {fileID: 0}
     - target: {fileID: 5456914078010432073, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.8286457
+      value: -5.6089873
       objectReference: {fileID: 0}
     - target: {fileID: 5456914078010432073, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5823,6 +5888,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1627066394}
     m_Modifications:
+    - target: {fileID: 1475421115190777867, guid: 08572465f5416404382b8694ef7f961f, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 726978325}
     - target: {fileID: 5342282918834095876, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_Name
       value: LandSquid (16)
@@ -5947,6 +6016,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1627066394}
     m_Modifications:
+    - target: {fileID: 1475421115190777867, guid: 08572465f5416404382b8694ef7f961f, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 726978325}
     - target: {fileID: 5342282918834095876, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_Name
       value: LandSquid (4)
@@ -6004,6 +6077,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1627066394}
     m_Modifications:
+    - target: {fileID: 1475421115190777867, guid: 08572465f5416404382b8694ef7f961f, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 726978325}
     - target: {fileID: 5342282918834095876, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_Name
       value: LandSquid (10)
@@ -6066,6 +6143,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1627066394}
     m_Modifications:
+    - target: {fileID: 1475421115190777867, guid: 08572465f5416404382b8694ef7f961f, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 726978325}
     - target: {fileID: 5342282918834095876, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_Name
       value: LandSquid (20)
@@ -6076,11 +6157,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5456914078010432073, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 478.59888
+      value: 495.93317
       objectReference: {fileID: 0}
     - target: {fileID: 5456914078010432073, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.8196583
+      value: -5.6
       objectReference: {fileID: 0}
     - target: {fileID: 5456914078010432073, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6185,6 +6266,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1627066394}
     m_Modifications:
+    - target: {fileID: 1475421115190777867, guid: 08572465f5416404382b8694ef7f961f, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 726978325}
     - target: {fileID: 5342282918834095876, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_Name
       value: LandSquid (26)
@@ -6310,7 +6395,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 703126005693370025, guid: 89a9cc989c5d2cb4caf053e099ddc2e1, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 703126005693370025, guid: 89a9cc989c5d2cb4caf053e099ddc2e1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6423,7 +6508,7 @@ Transform:
   - {fileID: 1377005557}
   - {fileID: 1897850231}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1637926978 stripped
 Transform:
@@ -6437,6 +6522,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1627066394}
     m_Modifications:
+    - target: {fileID: 1475421115190777867, guid: 08572465f5416404382b8694ef7f961f, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 726978325}
     - target: {fileID: 5342282918834095876, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_Name
       value: LandSquid (27)
@@ -6532,7 +6621,6 @@ Transform:
   - {fileID: 28193848}
   - {fileID: 293340527}
   - {fileID: 1195422523}
-  - {fileID: 1314202908}
   - {fileID: 187941938}
   - {fileID: 1258814675}
   - {fileID: 1421799948}
@@ -6834,7 +6922,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 703126005693370025, guid: 89a9cc989c5d2cb4caf053e099ddc2e1, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 703126005693370025, guid: 89a9cc989c5d2cb4caf053e099ddc2e1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7108,7 +7196,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 703126005693370025, guid: 89a9cc989c5d2cb4caf053e099ddc2e1, type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 703126005693370025, guid: 89a9cc989c5d2cb4caf053e099ddc2e1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7169,6 +7257,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1627066394}
     m_Modifications:
+    - target: {fileID: 1475421115190777867, guid: 08572465f5416404382b8694ef7f961f, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 726978325}
     - target: {fileID: 5342282918834095876, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_Name
       value: LandSquid (6)
@@ -7236,6 +7328,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1627066394}
     m_Modifications:
+    - target: {fileID: 1475421115190777867, guid: 08572465f5416404382b8694ef7f961f, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 726978325}
     - target: {fileID: 5342282918834095876, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_Name
       value: LandSquid (8)
@@ -7298,6 +7394,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1627066394}
     m_Modifications:
+    - target: {fileID: 1475421115190777867, guid: 08572465f5416404382b8694ef7f961f, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 726978325}
     - target: {fileID: 5342282918834095876, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_Name
       value: LandSquid
@@ -7370,6 +7470,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1627066394}
     m_Modifications:
+    - target: {fileID: 1475421115190777867, guid: 08572465f5416404382b8694ef7f961f, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 726978325}
     - target: {fileID: 5342282918834095876, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_Name
       value: LandSquid (23)
@@ -7380,11 +7484,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5456914078010432073, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 489.2567
+      value: 506.591
       objectReference: {fileID: 0}
     - target: {fileID: 5456914078010432073, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.589533
+      value: -5.3698745
       objectReference: {fileID: 0}
     - target: {fileID: 5456914078010432073, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7459,6 +7563,27 @@ Transform:
   m_Father: {fileID: 1082871222}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1934874313 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7627114446864556968, guid: 79ca481033159564985577ef87260323, type: 3}
+  m_PrefabInstance: {fileID: 1065370963}
+  m_PrefabAsset: {fileID: 0}
+--- !u!58 &1934874318
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1934874313}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 30
 --- !u!1 &1946142621 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7440935225862558322, guid: 3eadff43240992043b8c2248304f8d17, type: 3}
@@ -7809,6 +7934,63 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1001 &2017777939
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2693449806930634793, guid: aa7d5db3aea80134396e30593badd533, type: 3}
+      propertyPath: m_Name
+      value: Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 2693449806930634795, guid: aa7d5db3aea80134396e30593badd533, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2693449806930634795, guid: aa7d5db3aea80134396e30593badd533, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 508.66833
+      objectReference: {fileID: 0}
+    - target: {fileID: 2693449806930634795, guid: aa7d5db3aea80134396e30593badd533, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.08286443
+      objectReference: {fileID: 0}
+    - target: {fileID: 2693449806930634795, guid: aa7d5db3aea80134396e30593badd533, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2693449806930634795, guid: aa7d5db3aea80134396e30593badd533, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2693449806930634795, guid: aa7d5db3aea80134396e30593badd533, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2693449806930634795, guid: aa7d5db3aea80134396e30593badd533, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2693449806930634795, guid: aa7d5db3aea80134396e30593badd533, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2693449806930634795, guid: aa7d5db3aea80134396e30593badd533, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2693449806930634795, guid: aa7d5db3aea80134396e30593badd533, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2693449806930634795, guid: aa7d5db3aea80134396e30593badd533, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aa7d5db3aea80134396e30593badd533, type: 3}
 --- !u!4 &2024559659 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3650843872221693433, guid: 3c3229446e3a5e241ad02faa1a9a7eaf, type: 3}
@@ -7973,6 +8155,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1627066394}
     m_Modifications:
+    - target: {fileID: 1475421115190777867, guid: 08572465f5416404382b8694ef7f961f, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 726978325}
     - target: {fileID: 5342282918834095876, guid: 08572465f5416404382b8694ef7f961f, type: 3}
       propertyPath: m_Name
       value: LandSquid (5)
@@ -8212,7 +8398,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 450705132710704529, guid: 4d16937300af8fd4aaad4ad7ac2cf442, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 365.18353
+      value: 383.2353
       objectReference: {fileID: 0}
     - target: {fileID: 450705132710704529, guid: 4d16937300af8fd4aaad4ad7ac2cf442, type: 3}
       propertyPath: m_LocalPosition.y
