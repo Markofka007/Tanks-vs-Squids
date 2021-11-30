@@ -58,7 +58,7 @@ public class AirSquid : MonoBehaviour
             Destroy(gameObject);
             //gameManager.enemiesKilled++;
         }
-        else if (collision.gameObject.CompareTag("Tank"))
+        else if (collision.gameObject.CompareTag("Player"))
         {
             Destroy(gameObject);
         }
