@@ -9,6 +9,8 @@ public class LandSquid : MonoBehaviour
     private float speed = 1000f;
     private float smoothing = 1.5f;
 
+    private bool playerCheck = false;
+
     private Vector3 directionFacing;
 
     private Rigidbody2D SquidRB;
@@ -26,14 +28,20 @@ public class LandSquid : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        directionFacing = (player.transform.position - transform.position).normalized;
-        //Debug.Log(directionFacing.x);
+        if(playerCheck)
+        {
+            directionFacing = (player.transform.position - transform.position).normalized;
+            //Debug.Log(directionFacing.x);
+        }
     }
 
     private void FixedUpdate()
     {
-        Vector3 targetVelocity = new Vector2(directionFacing.x * speed * Time.fixedDeltaTime, SquidRB.velocity.y);
-        SquidRB.velocity = Vector3.SmoothDamp(SquidRB.velocity, targetVelocity, ref vector3Zero, smoothing);
+        if(playerCheck)
+        {
+            Vector3 targetVelocity = new Vector2(directionFacing.x * speed * Time.fixedDeltaTime, SquidRB.velocity.y);
+            SquidRB.velocity = Vector3.SmoothDamp(SquidRB.velocity, targetVelocity, ref vector3Zero, smoothing);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -41,7 +49,15 @@ public class LandSquid : MonoBehaviour
         if (collision.gameObject.CompareTag("Bullet"))
         {
             Destroy(gameObject);
-            //gameManager.enemiesKilled++;
+            gameManager.enemiesKilled++;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.CompareTag("Player"))
+        {
+            playerCheck = true;
         }
     }
 }

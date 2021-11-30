@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -15,6 +16,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float smoothing = 0.05f;
     [SerializeField] private Camera mainCamera;
     [SerializeField] private GameObject bulletPrefab;
+
+    private float rofTimer = 0;
+    public bool canShoot = true;
+    public float curROF;
 
     private float horizontalInput;
     private float targetYVelocity;
@@ -48,10 +53,27 @@ public class PlayerController : MonoBehaviour
 
         headRotationFloat = tankHead.GetComponent<Rigidbody2D>().rotation;
 
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (Input.GetKeyDown(KeyCode.Mouse0) && canShoot)
         {
             GameObject bullet = GameObject.Instantiate(bulletPrefab, cannonTip.transform.position, tankHead.transform.rotation) as GameObject;
             bullet.GetComponent<Rigidbody2D>().velocity = new Vector2(CosDeg(headRotationFloat) * 0.3f, SinDeg(headRotationFloat) * 0.3f);
+            canShoot = false;
+        }
+
+        if(Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene(targetScene);
+        }
+
+        if (!canShoot)
+        {
+            rofTimer += Time.deltaTime;
+
+            if (rofTimer >= curROF)
+            {
+                canShoot = true;
+                rofTimer = 0;
+            }
         }
     }
 

@@ -328,6 +328,7 @@ GameObject:
   - component: {fileID: 7627114446864556978}
   - component: {fileID: 7627114446864556969}
   - component: {fileID: 7627114446864556972}
+  - component: {fileID: 1934874318}
   m_Layer: 0
   m_Name: Tank
   m_TagString: Player
@@ -436,7 +437,25 @@ MonoBehaviour:
   smoothing: 0.025
   mainCamera: {fileID: 0}
   bulletPrefab: {fileID: 7056837364945992129, guid: c00bb8bf434eecd44921f2f3e0c134da, type: 3}
+  canShoot: 1
+  curROF: 1
   health: 1
+--- !u!58 &1934874318
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7627114446864556968}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 30
 --- !u!1 &7627114447145910633
 GameObject:
   m_ObjectHideFlags: 0

@@ -41,7 +41,9 @@ public class GameManager : MonoBehaviour
                 isGamePaused = true;
                 DisplayPauseUI();
             }
-        } 
+        }
+
+        enemiesKilledText.text = "Kills: " + enemiesKilled;
     }
 
     void DisplayPauseUI()
