@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
 {
     public GameManager gameManager;
 
+    [SerializeField] private GameObject missilePrefab;
     public int missileCount = 5;
 
     private Rigidbody2D playerRB;
@@ -66,10 +67,12 @@ public class PlayerController : MonoBehaviour
             canShoot = false;
         }
 
-        if(Input.GetKeyDown(KeyCode.Mouse1) && canShoot)
+        if(Input.GetKeyDown(KeyCode.Mouse1) && missileCount > 0 && canShoot)
         {
             missileCount--;
             canShoot = false;
+            GameObject missile = GameObject.Instantiate(missilePrefab, cannonTip.transform.position, tankHead.transform.rotation) as GameObject;
+            missile.GetComponent<Rigidbody2D>().velocity = new Vector2(CosDeg(headRotationFloat) * 0.6f, SinDeg(headRotationFloat) * 0.6f);
         }
 
         if (!canShoot)
@@ -113,6 +116,15 @@ public class PlayerController : MonoBehaviour
         {
             gameManager.pressR.SetActive(true);
             Destroy(gameObject);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Pickup_Missile"))
+        {
+            missileCount++;
+            Destroy(other.gameObject);
         }
     }
 
