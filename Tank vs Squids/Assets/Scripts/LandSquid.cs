@@ -9,7 +9,7 @@ public class LandSquid : MonoBehaviour
     private float speed = 1000f;
     private float smoothing = 1.5f;
 
-    private bool playerCheck = false;
+    public bool playerCheck = false;
 
     private Vector3 directionFacing;
 
