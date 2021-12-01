@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SpawnManager : MonoBehaviour
 {
+    public bool doSpawn = false;
     public GameObject airSquidPrefab;
     private GameObject player;
 
@@ -26,13 +27,16 @@ public class SpawnManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timeSinceLastSpawn += Time.deltaTime;
-
-        if (timeSinceLastSpawn >= randomSpawnDelay)
+        if (doSpawn)
         {
-            StartCoroutine("SpawnAirSquid");
-            timeSinceLastSpawn = 0;
-            randomSpawnDelay = Random.Range(minSpawnTime, maxSpawnTime);
+            timeSinceLastSpawn += Time.deltaTime;
+
+            if (timeSinceLastSpawn >= randomSpawnDelay)
+            {
+                StartCoroutine("SpawnAirSquid");
+                timeSinceLastSpawn = 0;
+                randomSpawnDelay = Random.Range(minSpawnTime, maxSpawnTime);
+            }
         }
     }
 
@@ -49,5 +53,21 @@ public class SpawnManager : MonoBehaviour
         //Debug.Log(CosDeg(spawnAngle));
         Vector2 spawnPos = new Vector2(player.transform.position.x + Random.Range(-25, 25), player.transform.position.y + OSdistanceY);
         Instantiate(airSquidPrefab, spawnPos, Quaternion.identity);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.CompareTag("Player"))
+        {
+            doSpawn = true;
+        } 
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            doSpawn = false;
+        }
     }
 }
