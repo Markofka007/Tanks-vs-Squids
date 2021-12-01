@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI missileCount;
 
     public PlayerController player;
+    public bool displayUI = true;
 
     public GameObject paused;
     public GameObject resumeButton;
@@ -33,31 +34,34 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isGamePaused && Input.GetKeyDown(KeyCode.Escape))
+        if(displayUI)
         {
-            //Debug.Log("Bing");
-            isGamePaused = false;
-            HidePauseUI();
-        }
-        else
-        {
-            if (!isGamePaused && Input.GetKeyDown(KeyCode.Escape))
+            if (isGamePaused && Input.GetKeyDown(KeyCode.Escape))
             {
-                //Debug.Log("Bada");
-                isGamePaused = true;
-                DisplayPauseUI();
+                //Debug.Log("Bing");
+                isGamePaused = false;
+                HidePauseUI();
             }
-        }
+            else
+            {
+                if (!isGamePaused && Input.GetKeyDown(KeyCode.Escape))
+                {
+                    //Debug.Log("Bada");
+                    isGamePaused = true;
+                    DisplayPauseUI();
+                }
+            }
 
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            Debug.Log("Guh");
-            Time.timeScale = 1;
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        }
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                Debug.Log("Guh");
+                Time.timeScale = 1;
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            }
 
-        missileCount.text = "Missiles: " + player.missileCount;
-        enemiesKilledText.text = "Kills: " + enemiesKilled;
+            missileCount.text = "Missiles: " + player.missileCount;
+            enemiesKilledText.text = "Kills: " + enemiesKilled;
+        }
     }
 
     void DisplayPauseUI()
@@ -92,6 +96,11 @@ public class GameManager : MonoBehaviour
     public void QuitButton()
     {
         Debug.Log("Quit");
+        Application.Quit();
     }
 
+    public void StartGame()
+    {
+       SceneManager.LoadScene("Level 1");
+    }
 }
