@@ -8,7 +8,7 @@ public class SpawnManager : MonoBehaviour
     public GameObject airSquidPrefab;
     private GameObject player;
 
-    private float OSdistance = 24.166f;
+    //private float OSdistance = 24.166f;
     private float OSdistanceY = 11.0f;
 
     private float timeSinceLastSpawn;
