@@ -432,6 +432,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 0}
+  missilePrefab: {fileID: 692248455807556675, guid: e41b8f7651c893e47a26ff3320dd7fd3, type: 3}
   missileCount: 5
   speed: 450
   vertSpeed: 300

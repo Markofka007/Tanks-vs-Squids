@@ -56,7 +56,7 @@ public class GameManager : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
 
-        missileCount.text = "Missiles: " + player.missileCount;
+        //missileCount.text = "Missiles: " + player.missileCount;
         enemiesKilledText.text = "Kills: " + enemiesKilled;
     }
 
