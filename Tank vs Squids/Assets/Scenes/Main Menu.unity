@@ -156,6 +156,7 @@ MonoBehaviour:
   enemiesKilledText: {fileID: 0}
   missileCount: {fileID: 0}
   player: {fileID: 0}
+  displayUI: 0
   paused: {fileID: 0}
   resumeButton: {fileID: 1588274092}
   restartButton: {fileID: 0}
