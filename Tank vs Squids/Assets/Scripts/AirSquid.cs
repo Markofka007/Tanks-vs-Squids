@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AirSquid : MonoBehaviour
 {
-    public GameManager gameManager;
+    private GameManager gameManager;
 
     [SerializeField] private float speed;
 
@@ -24,6 +24,7 @@ public class AirSquid : MonoBehaviour
     {
         SquidRB = GetComponent<Rigidbody2D>();
         player = GameObject.Find("Tank");
+        gameManager = GameObject.FindObjectOfType<GameManager>();
 
         playerInitialPos = player.transform.position;
         initialPos = transform.position;
@@ -59,7 +60,7 @@ public class AirSquid : MonoBehaviour
         if (collision.gameObject.CompareTag("Bullet"))
         {
             Destroy(gameObject);
-            //gameManager.enemiesKilled++;
+            gameManager.enemiesKilled++;
         }
         else if (collision.gameObject.CompareTag("Player"))
         {
