@@ -7,12 +7,18 @@ public class PlayerController : MonoBehaviour
 {
     public GameManager gameManager;
 
+    public bool useStupidRecoil = false;
+
     [SerializeField] private GameObject missilePrefab;
     public int missileCount = 5;
 
     private Rigidbody2D playerRB;
     private GameObject tankHead;
     private GameObject cannonTip;
+    private GameObject tankCannon;
+
+    private Vector3 recoilState = new Vector3(1.4f, 0.25f, 1);
+    private Vector3 normalState = new Vector3(2, 0.25f, 1);
 
     [SerializeField] private float speed;
     [SerializeField] private float vertSpeed;
@@ -38,6 +44,7 @@ public class PlayerController : MonoBehaviour
     {
         playerRB = GetComponent<Rigidbody2D>();
         tankHead = GameObject.Find("TankHead");
+        tankCannon = GameObject.Find("TankCannon");
         cannonTip = GameObject.Find("TankCannonTip");
     }
     
@@ -73,6 +80,26 @@ public class PlayerController : MonoBehaviour
             canShoot = false;
             GameObject missile = GameObject.Instantiate(missilePrefab, cannonTip.transform.position, tankHead.transform.rotation) as GameObject;
             missile.GetComponent<Rigidbody2D>().velocity = new Vector2(CosDeg(headRotationFloat) * 0.6f, SinDeg(headRotationFloat) * 0.6f);
+        }
+
+        if (tankCannon.transform.localScale.x < recoilState.x && useStupidRecoil)
+        {
+            tankCannon.transform.localScale = recoilState;
+        }
+
+        if (tankCannon.transform.localScale.x > normalState.x && useStupidRecoil)
+        {
+            tankCannon.transform.localScale = normalState;
+        }
+
+        if (!canShoot)
+        {
+            CannonRecoil();
+        }
+
+        if(canShoot)
+        {
+            CannonBounceBack();
         }
 
         if (!canShoot)
@@ -116,6 +143,26 @@ public class PlayerController : MonoBehaviour
         {
             gameManager.pressR.SetActive(true);
             Destroy(gameObject);
+        }
+    }
+
+    private void CannonRecoil()
+    {
+        //door.gameObject.transform.position = Vector3.SmoothDamp(door.gameObject.transform.position, targetPosition, ref velocity, smoothTime);
+        Debug.Log("Ghu");
+        if(tankCannon.transform.localScale.x > recoilState.x && useStupidRecoil)
+        {
+            tankCannon.transform.localScale = Vector3.SmoothDamp(tankCannon.transform.localScale, recoilState, ref vector3Zero, 0.025f);
+        }
+    }
+
+    private void CannonBounceBack()
+    {
+        //door.gameObject.transform.position = Vector3.SmoothDamp(door.gameObject.transform.position, targetPosition, ref velocity, smoothTime);
+        Debug.Log("Gu");
+        if (tankCannon.transform.localScale.x < normalState.x && useStupidRecoil)
+        {
+            tankCannon.transform.localScale = Vector3.SmoothDamp(tankCannon.transform.localScale, normalState, ref vector3Zero, 0.1f);
         }
     }
 
