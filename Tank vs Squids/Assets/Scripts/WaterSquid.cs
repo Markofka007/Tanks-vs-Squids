@@ -7,6 +7,7 @@ public class WaterSquid : MonoBehaviour
     private Rigidbody2D squidRB;
 
     private GameObject player;
+    private GameManager gameManager;
 
     private bool isActivated = false;
 
@@ -16,7 +17,7 @@ public class WaterSquid : MonoBehaviour
     void Start()
     {
         squidRB = GetComponent<Rigidbody2D>();
-
+        gameManager = GameObject.FindObjectOfType<GameManager>();
         player = GameObject.Find("Tank");
     }
 
@@ -25,7 +26,7 @@ public class WaterSquid : MonoBehaviour
     {
         
 
-        if (isActivated)
+        if (isActivated && player != null)
         {
             float squidAngle = Mathf.Atan2(player.transform.position.y - transform.position.y, player.transform.position.x - transform.position.x) * Mathf.Rad2Deg;
             GetComponent<Rigidbody2D>().rotation = squidAngle;
@@ -46,5 +47,18 @@ public class WaterSquid : MonoBehaviour
     float SinDeg(float degInput)
     {
         return Mathf.Sin(degInput * Mathf.Deg2Rad) * Mathf.Rad2Deg;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.CompareTag("Bullet"))
+        {
+            Destroy(gameObject);
+            gameManager.enemiesKilled++;
+        }
+        else if (collision.gameObject.CompareTag("Player"))
+        {
+            Destroy(gameObject);
+        }
     }
 }
