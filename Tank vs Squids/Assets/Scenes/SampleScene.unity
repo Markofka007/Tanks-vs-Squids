@@ -1133,6 +1133,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7627114445635878324, guid: 79ca481033159564985577ef87260323, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.087522
+      objectReference: {fileID: 0}
+    - target: {fileID: 7627114445635878324, guid: 79ca481033159564985577ef87260323, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.044
+      objectReference: {fileID: 0}
+    - target: {fileID: 7627114445635878325, guid: 79ca481033159564985577ef87260323, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7627114445635878325, guid: 79ca481033159564985577ef87260323, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7627114445635878325, guid: 79ca481033159564985577ef87260323, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7627114446864556968, guid: 79ca481033159564985577ef87260323, type: 3}
       propertyPath: m_Name
       value: Tank
@@ -1873,6 +1893,7 @@ MonoBehaviour:
   enemiesKilledText: {fileID: 52259958}
   missileCount: {fileID: 0}
   player: {fileID: 0}
+  displayUI: 1
   paused: {fileID: 0}
   resumeButton: {fileID: 0}
   restartButton: {fileID: 0}
@@ -1941,7 +1962,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.118081, y: 1}
+    m_SensorSize: {x: 2.106422, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0

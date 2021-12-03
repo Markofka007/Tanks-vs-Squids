@@ -1,0 +1,427 @@
+fileFormatVersion: 2
+guid: 9b29ed7a25e518d47be8fdb28529b87a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Flying Squid Death Anim. 1_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 676
+        width: 177
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d110ca2b288eb4aa79389bd781bfb4
+      internalID: -1751977304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying Squid Death Anim. 1_1
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 675
+        width: 184
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51fcc3f2c416948408ffc75bf3523e76
+      internalID: 995556954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying Squid Death Anim. 1_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 675
+        width: 181
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0170c32083bf8f746b99e84b266ca08b
+      internalID: 1707468548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying Squid Death Anim. 1_9
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 482
+        width: 140
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596272a4ab123324cb588935e9aa7c7d
+      internalID: 1996161385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying Squid Death Anim. 1_10
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 492
+        width: 124
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844b11e00998dfd4fa085527b4311c38
+      internalID: -1012411456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying Squid Death Anim. 1_13
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 511
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47369f9d3cd9b7f43994aa9c827d9571
+      internalID: -89908512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying Squid Death Anim. 1_14
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 504
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063b71cd97ca57544a8cb25b844a4f81
+      internalID: 1215592613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying Squid Death Anim. 1_15
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 476
+        width: 139
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9bf7dacda6e8f4ab0ad15687844ea3
+      internalID: -277782689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying Squid Death Anim. 1_19
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 280
+        width: 116
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b772b4445dd8a2841b4d260c468fa7c9
+      internalID: 2082294611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying Squid Death Anim. 1_21
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 292
+        width: 90
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0cecd93b9d04746950628bcb3294a1
+      internalID: -695923426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying Squid Death Anim. 1_26
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 309
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f940595761397ff4c8a153ea97367f22
+      internalID: 1390752144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying Squid Death Anim. 1_27
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 292
+        width: 71
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98682abe394aaa84989e3a0acaad44b2
+      internalID: 1128694231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying Squid Death Anim. 1_31
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 93
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d69a65661073084e8af9b5b47c62867
+      internalID: 1483759313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Flying Squid Death Anim. 1_6: 613379727
+      Flying Squid Death Anim. 1_16: 1961186652
+      Flying Squid Death Anim. 1_29: -712136680
+      Flying Squid Death Anim. 1_4: 184079580
+      Flying Squid Death Anim. 1_30: -1542549906
+      Flying Squid Death Anim. 1_21: -695923426
+      Flying Squid Death Anim. 1_2: 1707468548
+      Flying Squid Death Anim. 1_10: -1012411456
+      Flying Squid Death Anim. 1_11: -1573062229
+      Flying Squid Death Anim. 1_3: 603703128
+      Flying Squid Death Anim. 1_15: -277782689
+      Flying Squid Death Anim. 1_17: 1667636136
+      Flying Squid Death Anim. 1_22: 1767321895
+      Flying Squid Death Anim. 1_8: 310014944
+      Flying Squid Death Anim. 1_5: -1548155286
+      Flying Squid Death Anim. 1_25: 1343788319
+      Flying Squid Death Anim. 1_27: 1128694231
+      Flying Squid Death Anim. 1_20: 2026290514
+      Flying Squid Death Anim. 1_13: -89908512
+      Flying Squid Death Anim. 1_9: 1996161385
+      Flying Squid Death Anim. 1_0: -1751977304
+      Flying Squid Death Anim. 1_19: 2082294611
+      Flying Squid Death Anim. 1_28: -1762572026
+      Flying Squid Death Anim. 1_23: 114776079
+      Flying Squid Death Anim. 1_12: -658345128
+      Flying Squid Death Anim. 1_24: 1241388385
+      Flying Squid Death Anim. 1_7: 452729231
+      Flying Squid Death Anim. 1_14: 1215592613
+      Flying Squid Death Anim. 1_1: 995556954
+      Flying Squid Death Anim. 1_26: 1390752144
+      Flying Squid Death Anim. 1_18: 2024772286
+      Flying Squid Death Anim. 1_31: 1483759313
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
