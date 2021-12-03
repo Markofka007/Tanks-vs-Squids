@@ -433,14 +433,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameManager: {fileID: 0}
   missilePrefab: {fileID: 692248455807556675, guid: e41b8f7651c893e47a26ff3320dd7fd3, type: 3}
-  missileCount: 5
+  missileCount: 0
   speed: 450
   vertSpeed: 300
   smoothing: 0.025
   mainCamera: {fileID: 0}
   bulletPrefab: {fileID: 7056837364945992129, guid: c00bb8bf434eecd44921f2f3e0c134da, type: 3}
   canShoot: 1
-  curROF: 0.45
+  curROF: 0.3
   health: 1
 --- !u!58 &1934874318
 CircleCollider2D:
