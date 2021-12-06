@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8517786d6f18ee64fb9568afa698b976
+guid: c172bdbccf54e2447aa44f72951f4f82
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 14.6
+  spritePixelsToUnits: 14.35
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -104,13 +104,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Lvl 1 Wall_0
+      name: Lvl 1 Platform_0
       rect:
         serializedVersion: 2
-        x: 89
-        y: 23
-        width: 22
-        height: 155
+        x: 11
+        y: 93
+        width: 178
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,8 +118,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92ee2af1493033c48b8851081de81e2f
-      internalID: 78918624
+      spriteID: f691314974fd7e443952fbc207254f2b
+      internalID: 1659586347
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Lvl 1 Wall_0: 78918624
+      Lvl 1 Platform_0: 1659586347
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
