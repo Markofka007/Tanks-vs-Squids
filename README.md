@@ -1,2 +1,2 @@
 # Tanks vs Squids
- squid game
+First team project for PCSC Game Development Class
